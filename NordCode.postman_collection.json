@@ -1,0 +1,183 @@
+{
+	"info": {
+		"_postman_id": "fdac917b-9201-4c41-8725-47ce08d4d66c",
+		"name": "NordCode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9009/api/v1/SfbRH.rbbt",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9009/api/v1/7bfZz.rbbt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"api",
+						"v1",
+						"7bfZz.rbbt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9009/api/v1/urls/statistic",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {},
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9009/api/v1/urls/statistic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"api",
+						"v1",
+						"urls",
+						"statistic"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9009/api/v1/lifetime/21JDx.rbbt/1",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9009/api/v1/lifetime/21JDx.rbbt/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"api",
+						"v1",
+						"lifetime",
+						"21JDx.rbbt",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9009/api/v1/?userId=1&signature=$2a$12$g31U1GzT2o9SEUZc4l3tnu4IYCOQflrHEUnIGqQPuuOpvIuuCqHVu",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"url\": \"facebook.com\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9009/api/v1/?userId=1&signature=$2a$12$g31U1GzT2o9SEUZc4l3tnu4IYCOQflrHEUnIGqQPuuOpvIuuCqHVu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"api",
+						"v1",
+						""
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "1"
+						},
+						{
+							"key": "signature",
+							"value": "$2a$12$g31U1GzT2o9SEUZc4l3tnu4IYCOQflrHEUnIGqQPuuOpvIuuCqHVu"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
